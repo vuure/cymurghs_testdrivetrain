@@ -32,6 +32,6 @@ public class Robot extends TimedRobot {
     double rightXaxis = controller.getRawAxis(4);
 
     m_robotDrive_first.arcadeDrive(rightXaxis * 1, leftYaxis * 1);
-    m_robotDrive_second.arcadeDrive(rightXaxis * 1, leftYaxis * 1);
+    m_robotDrive_second.arcadeDrive(rightXaxis * -1, leftYaxis * -1);
   }
 }
