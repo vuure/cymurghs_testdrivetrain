@@ -16,8 +16,8 @@ public class Robot extends TimedRobot {
   private final WPI_TalonSRX frontleft = new WPI_TalonSRX(24);
   private final WPI_VictorSPX backleft = new WPI_VictorSPX(25);
 
-  private final DifferentialDrive m_robotDrive_first = new DifferentialDrive(frontleft, frontright);
-  private final DifferentialDrive m_robotDrive_second = new DifferentialDrive(backleft, backright);
+  private final DifferentialDrive m_robotDrive_first = new DifferentialDrive(frontleft, backleft);
+  private final DifferentialDrive m_robotDrive_second = new DifferentialDrive(frontright, backright);
 
   Joystick controller = new Joystick(0);
 
