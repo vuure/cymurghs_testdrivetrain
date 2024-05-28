@@ -1,2 +1,2 @@
 # cymurghs_testdrivetrain
-Drivetrain codes for WCD and mecanum drive. May add command-based versions
+WCD için command-based ve timed-robot, mecanum için ise sadece timed-robot kodları. "robot" dosyası command-based'e ait. Değerlendirme için sadece ona bakabilirsiniz.
