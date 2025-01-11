@@ -32,7 +32,7 @@ public class Robot extends TimedRobot {
   public void teleopPeriodic() {
     double leftYaxis = controller.getRawAxis(1);
     double rightXaxis = controller.getRawAxis(0);
-    double leftXaxis = controller.getRawAxis(4);
+    double leftXaxis = controller.getRawAxis(2);
 
     m_robotDrive.driveCartesian(-leftYaxis, -rightXaxis, leftXaxis);
   }
